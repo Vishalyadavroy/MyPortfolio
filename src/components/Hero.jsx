@@ -12,7 +12,7 @@ function Hero() {
           Hello, I'm <span className="hero-name">Vishal Yadav</span>
         </h2>
         <p className="hero-subtitle">
-          A Specialist in Data Science & Data Analytics
+          An Enthusiast in Data Science & Data Analytics
         </p>
         <p className="hero-description">
           With a strong background in data science and analytics, I leverage powerful tools like Python, R, and Power BI to transform complex data into actionable insights. My expertise spans data manipulation, statistical modeling, and creating compelling visualizations to drive business decisions. I am passionate about solving challenging problems and building efficient data pipelines.
