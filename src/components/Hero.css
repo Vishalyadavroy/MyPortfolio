@@ -1,0 +1,122 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 1rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    padding: 8rem 1rem 5rem;
+  }
+}
+
+.hero-content {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    max-width: 50%;
+    margin-right: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+/* Animations for text */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #fff;
+  margin: 0;
+  opacity: 0;
+  animation: fadeInDown 1s forwards;
+}
+
+.hero-name {
+  color: #a855f7;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #9ca3af;
+  margin: 1rem 0;
+  opacity: 0;
+  animation: fadeInDown 1s forwards 0.2s;
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #d1d5db;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeInDown 1s forwards 0.4s;
+}
+
+/* New styling for Tilt component */
+.parallax-effect {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid #a855f7;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.hero-image-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+/* Button Group and Button Styles */
+.button-group {
+  margin-top: 1.5rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #a855f7;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-btn:hover {
+  background-color: #9333ea;
+  transform: translateY(-2px);
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
