@@ -6,8 +6,8 @@ function Projects() {
   const projects = [
     {
       title: 'Amazon Sales Analysis Dashboard',
-      description: 'An interactive dashboard built with Power BI to analyze sales data and track key performance indicators.',
-      imageUrl: 'src/assets/projects/project1.png',
+      description: 'An interactive dashboard built with Power BI to analyze sales data and track key performance indicators.The objective of this project is to design and develop an interactive Amazon Sales Dashboard that provides clear, data-driven insights into sales performance, and product trends. this dashboard aims to help businesses:.',
+      imageUrl: 'src/assets/projects/project11.png',
       liveUrl: '#',
       githubUrl: 'https://github.com/Vishalyadavroy/Amazon-Sales-Analysis-Dashboard'
     },
@@ -19,9 +19,9 @@ function Projects() {
       githubUrl: 'https://github.com/VishalYadav'
     },
     {
-      title: 'Big Data Processing Pipeline',
-      description: 'Built a robust ETL pipeline for processing large datasets using Hadoop to ensure data integrity and availability.',
-      imageUrl: 'https://placehold.co/600x400/2d264a/c0b9ce?text=Project+3+Image',
+      title: 'OLA-Data-Analytics-End-to-End-Project',
+      description: 'he objective of this project is to analyze Ola’s ride data using SQL, Excel, and Power BI to uncover meaningful insights that can drive business growth and operational efficiency. The focus is on understanding customer behavior, ride booking trends, payment preferences, and driver performance across different cities',
+      imageUrl: 'src/assets/projects/project2.png',
       liveUrl: '#',
       githubUrl: 'https://github.com/VishalYadav'
     },
