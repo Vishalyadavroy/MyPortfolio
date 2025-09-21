@@ -7,7 +7,7 @@ function Projects() {
     {
       title: 'Amazon Sales Analysis Dashboard',
       description: 'An interactive dashboard built with Power BI to analyze sales data and track key performance indicators.The objective of this project is to design and develop an interactive Amazon Sales Dashboard that provides clear, data-driven insights into sales performance, and product trends. this dashboard aims to help businesses:.',
-      imageUrl: 'src/assets/projects/project11.png',
+      imageUrl: 'src/assets/projects/project1.png',
       liveUrl: '#',
       githubUrl: 'https://github.com/Vishalyadavroy/Amazon-Sales-Analysis-Dashboard'
     },
