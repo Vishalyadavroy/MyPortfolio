@@ -1,8 +1,8 @@
 import React from 'react';
 import './Hero.css';
-import profileImage from '../assets/profile-logo.png';
+import profileImage from '/assets/profile-logo.png';
 import Tilt from 'react-parallax-tilt';
-import resumePDF from '../assets/resumes/vishal_resume70.pdf';
+import resumePDF from '/assets/resumes/vishal_resume70.pdf';
 
 function Hero() {
   return (
