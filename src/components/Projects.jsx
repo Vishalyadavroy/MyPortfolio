@@ -12,18 +12,18 @@ function Projects() {
       githubUrl: 'https://github.com/Vishalyadavroy/Amazon-Sales-Analysis-Dashboard'
     },
     {
-      title: 'Customer Churn Prediction',
-      description: 'A machine learning model developed with Python and scikit-learn to predict customer churn for a telecom company.',
-      imageUrl: 'https://placehold.co/600x400/2d264a/c0b9ce?text=Project+2+Image',
+      title: 'Rohit-Sharma-Career-Statistics-Dashboard',
+      description: 'The aim of this project is to visualize Rohit Sharma’s career performance across different formats (ODI, T20, Test) using Power BI and Excel. It helps cricket fans, analysts, and sports enthusiasts easily explore trends, match-wise performances, and overall career insights.',
+      imageUrl: 'src/assets/projects/project3.png',
       liveUrl: '#',
-      githubUrl: 'https://github.com/VishalYadav'
+      githubUrl: 'https://github.com/Vishalyadavroy/Rohit-Sharma-Career-Statistics-Dashboard-'
     },
     {
       title: 'OLA-Data-Analytics-End-to-End-Project',
       description: 'he objective of this project is to analyze Ola’s ride data using SQL, Excel, and Power BI to uncover meaningful insights that can drive business growth and operational efficiency. The focus is on understanding customer behavior, ride booking trends, payment preferences, and driver performance across different cities',
       imageUrl: 'src/assets/projects/project2.png',
       liveUrl: '#',
-      githubUrl: 'https://github.com/VishalYadav'
+      githubUrl: 'https://github.com/Vishalyadavroy/OLA-Data-Analytics-End-to-End-Project'
     },
   ];
 
